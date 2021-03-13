@@ -1,1 +1,1 @@
-docker build . -t example/latest
+docker build . -t example
