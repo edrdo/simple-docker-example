@@ -1,1 +1,1 @@
-docker run --rm -it -p 5000:5000 example
+docker run --rm -it -p 8080:8080 example

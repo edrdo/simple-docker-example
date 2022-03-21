@@ -12,6 +12,6 @@ COPY app.py /usr/src/app/
 COPY templates/index.html /usr/src/app/templates/
 COPY static/* /usr/src/app/static/
 # tell the port number the container should expose
-EXPOSE 5000
+EXPOSE 8080
 # run the application   
 CMD ["python", "/usr/src/app/app.py"]
